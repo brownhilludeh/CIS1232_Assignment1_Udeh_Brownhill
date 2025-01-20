@@ -95,7 +95,7 @@ public class Controller {
         int location = 0;
 
         for (int i = 0; i < theoryGrades.length; i++) {
-            if (theoryGrades[i] > highestGrade) {
+            if (theoryGrades[i] == highestGrade) {
                 highestGrade = theoryGrades[i];
                 location = i;
             }
